@@ -67,16 +67,19 @@ var stripeHandler = StripeCheckout.configure({
             updateCartTotal()
         }).catch(function(error) {
             console.error(error)
+            console.log('Fail')
         })
     }
 })
 
 function purchaseClicked() {
+    console.log('Start')
     var priceElement = document.getElementsByClassName('cart-total-price')[0]
     var price = parseFloat(priceElement.innerText.replace('$', '')) * 100
     stripeHandler.open({ // .open, opens the payment popup box
         amount: price
     })
+    console.log('End')
 }
 
 function removeCartItem(event) {
