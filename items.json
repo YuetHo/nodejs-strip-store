@@ -1,0 +1,28 @@
+{
+  "parts": [
+    {
+      "id": 1,
+      "name": "Tire",
+      "price": 99,
+      "imgName": "Album 1.png"
+    },
+    {
+      "id": 2,
+      "name": "Window",
+      "price": 199,
+      "imgName": "Album 2.png"
+    },
+    {
+      "id": 3,
+      "name": "Headlight",
+      "price": 199,
+      "imgName": "Album 3.png"
+    },
+    {
+      "id": 4,
+      "name": "Front Bumper",
+      "price": 299,
+      "imgName": "Album 4.png"
+    }
+  ]
+}
